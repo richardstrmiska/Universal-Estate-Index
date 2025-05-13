@@ -1,22 +1,16 @@
 {
-  "index_version": "1.0",
-  "created": "2025-05-13T18:06:57.480090Z",
-  "estates": [
-    {
-      "title": "Upper Hillview Sovereign Estate",
-      "stellar_address": "GA4H43P2VPP3CICC7WHZOLCYGDVFUBNDSYTZCRNYOISSLJC4DG3NR6MC",
-      "ipfs_cid": "bafybeihtho3gqwBZLhUGw7w3jthgnp5v4gft52jv4ncmojopxmjmaoy5se",
-      "verification_page": "https://richardstrmiska.github.io/sovereign-estate-verification",
-      "qr_code": "Sovereign_Estate_Verification_QR.png",
-      "date_registered": "2025-05-13T18:06:57.479998Z",
-      "status": "Verified",
-      "tags": [
-        "sovereign",
-        "estate",
-        "stellar",
-        "ipfs",
-        "public-record"
-      ]
-    }
-  ]
+    "index_version": "1.0",
+    "created": "2025-05-13T21:40:23.185303Z",
+    "estates": [
+        {
+            "title": "Upper Hillview Sovereign Estate",
+            "stellar_address": "GA4H43P2VPP3CICC7W3RD43GEM5NKOHMWB6FQFSG7M37POTICRIRZV4Y",
+            "ipfs_cid": "bafybeif27tdhn2xzkh4wjwsm6zlxvg7z4gw3dmt4khnggaq3w6g3hn3odm",
+            "verification_page": "https://github.com/richardstrmiska/upper-hillview-estate",
+            "qr_code": "Upper_Hillview_Verification_QR.png",
+            "date_registered": "2025-05-13T21:40:23.185200Z",
+            "status": "Verified",
+            "memo_hash": "978f177ea9655f7f6786d953f1b0040526f013a88b5646925b0ed9bbb0b32"
+        }
+    ]
 }
