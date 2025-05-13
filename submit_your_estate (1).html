@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Submit Your Sovereign Estate</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      background: #f5f5f5;
+      padding: 20px;
+      color: #222;
+    }
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      margin-top: 20px;
+      width: 100%;
+      padding: 12px;
+      background: #0077cc;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    p.note {
+      font-size: 0.9em;
+      color: #666;
+      text-align: center;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Add Your Estate</h1>
+    <form method="POST" action="https://formspree.io/f/xeqyknry">
+      <label for="title">Estate Title</label>
+      <input type="text" id="title" name="title" required>
+
+      <label for="stellar_address">Stellar Public Key</label>
+      <input type="text" id="stellar_address" name="stellar_address" required>
+
+      <label for="ipfs_cid">IPFS CID (Bundle)</label>
+      <input type="text" id="ipfs_cid" name="ipfs_cid" required>
+
+      <label for="verification_page">Verification Page URL (optional)</label>
+      <input type="url" id="verification_page" name="verification_page">
+
+      <label for="notes">Notes (optional)</label>
+      <textarea id="notes" name="notes" rows="4"></textarea>
+
+      <button type="submit">Submit Estate</button>
+    </form>
+    <p class="note">This submission will be reviewed and anchored publicly to the Universal Estate Index.</p>
+  </div>
+</body>
+</html>
