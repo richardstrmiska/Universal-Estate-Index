@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{PAGE_TITLE}}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      padding: 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      color: #222;
+    }
+    code {
+      background: #eee;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+    a {
+      color: #0077cc;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>{{PAGE_TITLE}}</h1>
+    <p><strong>Stellar Address:</strong><br>
+      <code>{{STELLAR_PUBLIC_KEY}}</code></p>
+
+    <p><strong>IPFS Sovereign Bundle:</strong><br>
+      <a href="https://ipfs.io/ipfs/{{IPFS_CID}}" target="_blank">
+        https://ipfs.io/ipfs/{{IPFS_CID}}
+      </a></p>
+
+    <p>This page serves as a verified publication of a sovereign estate, combining on-chain data with decentralized storage. All trustline assets and documentation are preserved immutably via IPFS and referenced by this Stellar account.</p>
+  </div>
+</body>
+</html>
