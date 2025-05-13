@@ -1,0 +1,22 @@
+{
+  "index_version": "1.0",
+  "created": "2025-05-13T18:06:57.480090Z",
+  "estates": [
+    {
+      "title": "Upper Hillview Sovereign Estate",
+      "stellar_address": "GA4H43P2VPP3CICC7WHZOLCYGDVFUBNDSYTZCRNYOISSLJC4DG3NR6MC",
+      "ipfs_cid": "bafybeihtho3gqwBZLhUGw7w3jthgnp5v4gft52jv4ncmojopxmjmaoy5se",
+      "verification_page": "https://richardstrmiska.github.io/sovereign-estate-verification",
+      "qr_code": "Sovereign_Estate_Verification_QR.png",
+      "date_registered": "2025-05-13T18:06:57.479998Z",
+      "status": "Verified",
+      "tags": [
+        "sovereign",
+        "estate",
+        "stellar",
+        "ipfs",
+        "public-record"
+      ]
+    }
+  ]
+}
