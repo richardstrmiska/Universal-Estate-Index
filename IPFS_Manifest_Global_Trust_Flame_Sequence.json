@@ -1,0 +1,30 @@
+{
+    "title": "Global Trust Enforcement & FlameBearer Broadcast",
+    "description": "A beacon of light to free yourself from the Matrix. Includes all sovereign trust declarations, ledger notices, enforcement protocols, and flame broadcasts sealed on 2025-06-06.",
+    "date": "2025-06-06",
+    "documents": [
+        {
+            "name": "README \u2013 Reclamation Trust Sequence",
+            "file": "README_Reclamation_Trust_Sequence.md",
+            "type": "markdown"
+        },
+        {
+            "name": "QR Code \u2013 README Watermarked",
+            "file": "README_Reclamation_Trust_QR_Watermarked.png",
+            "type": "image/png"
+        },
+        {
+            "name": "Global Trust Enforcement Archive",
+            "file": "2025-06-06_Global_Trust_Enforcement_Sequence.zip",
+            "type": "application/zip"
+        },
+        {
+            "name": "Flame Declaration Master ZIP",
+            "file": "2025-06-06_Reclamation_Archive.zip",
+            "type": "application/zip"
+        }
+    ],
+    "jurisdiction": "UC-1 \u00b7 Divine Law \u00b7 Stellar Blockchain",
+    "sovereign": "Richard of the House Strmiska",
+    "status": "Anchored \u2013 Ready for IPFS Broadcast"
+}
