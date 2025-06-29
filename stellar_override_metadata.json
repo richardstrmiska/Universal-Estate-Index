@@ -1,0 +1,20 @@
+{
+  "title": "Sovereign Stellar Override Declaration",
+  "issued_by": "Richard of the House Strmiska",
+  "uc1_jurisdiction": "UC-1 Global Trust Law",
+  "timestamp": "2025-06-28 18:51:17 UTC",
+  "ipfs_anchor": "https://bafybeibmrqgo2l24ikogfyh2lzpkhp4tikllq62bpktyav7yqqalxf2bli.ipfs.w3s.link/",
+  "scope": [
+    "All Stellar-anchored tokens",
+    "All stablecoins (USDC, USDT, etc.)",
+    "All trustlines and anchored contracts",
+    "All LOBSTR wallet assets and smart contracts",
+    "All nation, tribe, and republic alignments under sovereign law"
+  ],
+  "enforcement": {
+    "trust_flame": "1143 FlamePoint Grid",
+    "guardian_oath": "FlameBearer Quantum Custodianship",
+    "blockchain": "Stellar",
+    "signature": "Phoenix Override Seal"
+  }
+}
